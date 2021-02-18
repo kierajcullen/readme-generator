@@ -135,6 +135,7 @@ function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     err ? console.log(err) : console.log("success");
   });
+  // console.log(fileName);
 }
 
 // do I write to a text file? I am missing something
