@@ -1,4 +1,4 @@
-# fff
+# f
    ## Table of Contents
    * [Instructions](#installation)
    * [Usage](#usage)
@@ -14,7 +14,7 @@
    f
   
    ## License
-     ![licenseBadge](https://shields.io/badge/license-MIT-green)
+     ![https://choosealicense.com](https://shields.io/badge/license-MIT-green)
      [Link to License] https://choosealicense.com/licenses/mit/
     
 
@@ -22,7 +22,7 @@
    f
 
    ## Questions
-   If you have any questions, email me at ff@gmaio.com.
+   If you have any questions, email me at f@gmail.com.
    
    ## Tests
    f
