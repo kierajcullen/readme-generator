@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 // inquirer and fs
 // const will not be redeclared
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 const inquirer = require("inquirer");
 // typical naming convention when declaring modules
 const fs = require("fs");
@@ -27,12 +27,6 @@ const questions = [
     },
   },
 
-  // {
-  //   type: "confirm",
-  //   name: "description",
-  //   message: "Would you like to include a description section?",
-  //   default: true,
-  // },
   // project description
   {
     type: "input",
@@ -139,9 +133,7 @@ function writeToFile(fileName, data) {
   // write the writeFile and pass back the information you store from the user
   // file, data, and callback
   fs.writeFile(fileName, data, (err) => {
-    console.log(err);
     err ? console.log(err) : console.log("success");
-    return;
   });
 }
 
