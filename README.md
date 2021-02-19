@@ -1,32 +1,32 @@
-# WOO
-   ## Table of Contents
-   * [Description](#description)
-   * [Installation](#installation)
-   * [Usage](#usage)
-   * [License](#license)
-   * [Contributions](#contributions)
-   * [Questions](#questions)
-   * [Tests](#tests)
-   
-  ## Description
-  Let's go
-   
-  ## Installation
-  boy
+# README Generator
 
-  ## Usage
-  bittccchhh lemme see you...
-  
-## License 
-  ![https://choosealicense.com](https://shields.io/badge/license-MIT-green) 
-  * https://choosealicense.com/licenses/mit/
-    
+This command-line application utilizes ES6+ and Node.js to dynamically generate a README.md file based upon user criteria. The program utilizes the fs module to enable interaction with the file system.
 
-  ## Contributions
-  eyy
+## Table of Contents
 
-  ## Tests
-  no
+- [Installation](#installation)
+- [License](#license)
+- [GitHub Repository](#github-repository)
+- [Command Line Example](#command-line-example)
 
-  ## Questions
-  If you have any questions, email me at no@gmai.com.
+# Installation
+
+The `inquirer.js` npm package creates the CLI (Command Line Interface) tools to handle the questions pertaining to your project. In order to run this program, use `node index.js` or `node index` in the terminal.
+
+# License
+
+The user can choose between:
+
+- MIT
+- Apache
+- Mozilla
+- No License
+
+# GitHub Repository
+
+https://github.com/kierajcullen/readme-generator
+
+# Command Line Example
+
+Import animation eventually
+![](img/.gif)

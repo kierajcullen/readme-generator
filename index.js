@@ -149,7 +149,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((response) => {
     // writeToFile has the callback function, do not do it again
-    writeToFile("README.md", generateMarkdown(response));
+    writeToFile("./utils/README.md", generateMarkdown(response));
   });
 }
 
