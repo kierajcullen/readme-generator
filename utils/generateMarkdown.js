@@ -31,7 +31,7 @@ function renderLicenseSection(license) {
   if (license == "MIT" || license == "apache" || license == "mozilla") {
     return `## License 
   ${renderLicenseBadge(license)} 
-  ### ${renderLicenseLink(license)}
+  * ${renderLicenseLink(license)}
     `;
   } else {
     return "";

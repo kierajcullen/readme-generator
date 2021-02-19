@@ -1,4 +1,4 @@
-# I think it's working
+# WOO
    ## Table of Contents
    * [Description](#description)
    * [Installation](#installation)
@@ -9,24 +9,24 @@
    * [Tests](#tests)
    
   ## Description
-  nic
+  Let's go
    
   ## Installation
-  nice
+  boy
 
   ## Usage
-  very nice
+  bittccchhh lemme see you...
   
 ## License 
   ![https://choosealicense.com](https://shields.io/badge/license-MIT-green) 
-  ### https://choosealicense.com/licenses/mit/
+  * https://choosealicense.com/licenses/mit/
     
 
   ## Contributions
-  so nice
+  eyy
 
   ## Tests
-  LET'S GO
+  no
 
   ## Questions
-  If you have any questions, email me at WOOOOO@fmail.com.
+  If you have any questions, email me at no@gmai.com.
