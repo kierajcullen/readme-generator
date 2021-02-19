@@ -15,12 +15,12 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === "MIT") {
     // return license links
-    return `[Link to License] https://choosealicense.com/licenses/mit/`;
+    return `https://choosealicense.com/licenses/mit/`;
   } else if (license === "apache") {
-    return `[Link to License] https://choosealicense.com/licenses/mpl-2.0/`;
+    return `https://choosealicense.com/licenses/mpl-2.0/`;
   } else if (license === "mozilla") {
-    return `[Link to License] https://choosealicense.com/licenses/apache-2.0/`;
-  } else {
+    return `https://choosealicense.com/licenses/apache-2.0/`;
+  } else if (license === "no license") {
     return "";
   }
 }
@@ -28,10 +28,10 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license) {
-    return `## License
-     ${renderLicenseBadge(license)}
-     ${renderLicenseLink(license)}
+  if (license == "MIT" || license == "apache" || license == "mozilla") {
+    return `## License 
+  ${renderLicenseBadge(license)} 
+  ### ${renderLicenseLink(license)}
     `;
   } else {
     return "";
@@ -42,29 +42,33 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
    ## Table of Contents
-   * [Instructions](#installation)
+   * [Description](#description)
+   * [Installation](#installation)
    * [Usage](#usage)
    * [License](#license)
-   * [Contributing](#contributions)
+   * [Contributions](#contributions)
    * [Questions](#questions)
    * [Tests](#tests)
    
   ## Description
-  ${data.userDescription}
+  ${data.description}
    
+  ## Installation
+  ${data.installation}
+
   ## Usage
   ${data.usage}
   
-  ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 
   ## Contributions
   ${data.contributions}
 
-  ## Questions
-  If you have any questions, email me at ${data.email}.
-   
   ## Tests
   ${data.tests}
+
+  ## Questions
+  If you have any questions, email me at ${data.email}.
 `;
 }
 

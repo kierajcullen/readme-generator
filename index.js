@@ -30,7 +30,7 @@ const questions = [
   // project description
   {
     type: "input",
-    name: "userDescription",
+    name: "description",
     message: "Enter your description: ",
     validate: function (userDesc) {
       if (userDesc) {
@@ -42,7 +42,7 @@ const questions = [
   // installation instructions
   {
     type: "input",
-    message: "Provide instructions for your README: ",
+    message: "Provide installation instructions for your README: ",
     name: "installation",
     // default is expected to be boolean if used
     validate: function (instructions) {
@@ -71,7 +71,6 @@ const questions = [
     type: "list",
     message: "What license would you like?",
     // wait what
-    // let people know what they can do with your program
     choices: ["MIT", "apache", "mozilla", "no license"],
     name: "license",
   },
