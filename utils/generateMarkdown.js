@@ -49,22 +49,22 @@ function generateMarkdown(data) {
    * [Questions](#questions)
    * [Tests](#tests)
    
-   ## Description
-   ${data.userDescription}
+  ## Description
+  ${data.userDescription}
    
-   ## Usage
-   ${data.usage}
+  ## Usage
+  ${data.usage}
   
-   ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
 
-   ## Contributions
-   ${data.contributions}
+  ## Contributions
+  ${data.contributions}
 
-   ## Questions
-   If you have any questions, email me at ${data.email}.
+  ## Questions
+  If you have any questions, email me at ${data.email}.
    
-   ## Tests
-   ${data.tests}
+  ## Tests
+  ${data.tests}
 `;
 }
 
