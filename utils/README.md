@@ -9,24 +9,25 @@
    * [Tests](#tests)
    
   ## Description
-  let's go
+  eyy
    
   ## Installation
-  mhm
+  later
 
   ## Usage
-  oh yeah
+  will do this later
   
-## License 
-  ![https://choosealicense.com](https://shields.io/badge/license-MIT-green) 
-  * https://choosealicense.com/licenses/mit/
+  ## License 
+  ![https://choosealicense.com](https://shields.io/badge/license-apache-green) 
+  * https://choosealicense.com/licenses/apache-2.0/
     
 
   ## Contributions
-  NO
+  kiera
 
   ## Tests
-  nope
+  eventually
 
   ## Questions
   If you have any questions, email me at kiera@gmail.com.
+  Please visit my GitHub profile: github.com/kierajcullen for more information.

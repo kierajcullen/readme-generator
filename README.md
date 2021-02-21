@@ -11,7 +11,7 @@ This command-line application utilizes ES6+ and Node.js to dynamically generate 
 
 # Installation
 
-The `inquirer.js` npm package creates the CLI (Command Line Interface) tools to handle the questions pertaining to your project. In order to run this program, use `node index.js` or `node index` in the terminal.
+The `inquirer.js` npm package creates the CLI (Command Line Interface) tools to handle the information pertaining to your project. In order to run this program, use `node index.js` or `node index` in the terminal. Make sure to use a `.gitignore` to avoid pushing unnecessary files (such as the node_modules) to GitHub.
 
 # License
 
@@ -22,11 +22,11 @@ The user can choose between:
 - Mozilla
 - No License
 
-# GitHub Repository
+# Generated README
 
-https://github.com/kierajcullen/readme-generator
+https://kierajcullen.github.io/readme-generator/
 
 # Command Line Example
 
 Import animation eventually
-![](img/.gif)
+![](img/github.gif)

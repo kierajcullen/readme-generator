@@ -17,9 +17,9 @@ function renderLicenseLink(license) {
     // return license links
     return `https://choosealicense.com/licenses/mit/`;
   } else if (license === "apache") {
-    return `https://choosealicense.com/licenses/mpl-2.0/`;
-  } else if (license === "mozilla") {
     return `https://choosealicense.com/licenses/apache-2.0/`;
+  } else if (license === "mozilla") {
+    return `https://choosealicense.com/licenses/mpl-2.0/`;
   } else if (license === "no license") {
     return "";
   }
@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   
-${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
 
   ## Contributions
   ${data.contributions}
@@ -69,6 +69,9 @@ ${renderLicenseSection(data.license)}
 
   ## Questions
   If you have any questions, email me at ${data.email}.
+  Please visit my GitHub profile: github.com/${
+    data.username
+  } for more information.
 `;
 }
 
