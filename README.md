@@ -28,5 +28,4 @@ https://kierajcullen.github.io/readme-generator/
 
 # Command Line Example
 
-Import animation eventually
 ![](img/github.gif)
