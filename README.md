@@ -6,7 +6,7 @@ This command-line application utilizes ES6+ and Node.js to dynamically generate 
 
 - [Installation](#installation)
 - [License](#license)
-- [GitHub Repository](#github-repository)
+- [README](#readme)
 - [Command Line Example](#command-line-example)
 
 # Installation
@@ -22,7 +22,7 @@ The user can choose between:
 - Mozilla
 - No License
 
-# Generated README
+# README
 
 https://kierajcullen.github.io/readme-generator/
 
